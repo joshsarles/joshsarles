@@ -10,7 +10,7 @@
       <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
       {{ if .Params.featured_image }}
       <a href="{{ .Permalink }}">
-        <img src="{{ .Params.featured_image | relURL }}" alt="{{ .Title }}" style="max-width: 100%; height: auto; margin-bottom: 1rem;">
+        <img src="{{ .Params.featured_image | relURL }}" alt="{{ .Title }}" style="max-width: 20%; height: auto; margin-bottom: 1rem;">
       </a>
       {{ end }}
       <p>{{ .Params.description }}</p>

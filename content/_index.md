@@ -3,11 +3,11 @@ Accomplished Composer / Mixer / Engineer. Best known for contributions to Christ
 ## Featured Projects
 
 ### Wretched and Divine
-Mixed an album that hit #7 on Billboard 200 and #1 on Rock charts.
+Mixed/Recorded/Arranged an album that hit #7 on Billboard 200 and #1 on Rock charts.
 <img src="/images/music/black-veil-brides-wretched-and-divine.png" alt="Wretched and Divine" style="max-width: 300px; height: auto; margin: 1rem 0;">
 [View Album](/music/black-veil-brides-wretched-and-divine/)
 
 ### Calling All Dawns
-Contributed to the first video game score to win a Grammy.
+Mixed the first video game score to win a Grammy.
 <img src="/images/music/christopher-tin-calling-all-dawns.jpg" alt="Calling All Dawns" style="max-width: 300px; height: auto; margin: 1rem 0;">
 [View Album](/music/christopher-tin-calling-all-dawns/)
