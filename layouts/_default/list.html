@@ -1,0 +1,22 @@
+{{ define "main" }}
+<div class="container my-5">
+  <h1>{{ .Title }}</h1>
+  <div class="content">
+    {{ .Content }}
+  </div>
+  <div class="posts-list">
+    {{ range .Pages }}
+    <article class="post-entry">
+      <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      {{ if .Params.featured_image }}
+      <a href="{{ .Permalink }}">
+        <img src="{{ .Params.featured_image | relURL }}" alt="{{ .Title }}" style="max-width: 100%; height: auto; margin-bottom: 1rem;">
+      </a>
+      {{ end }}
+      <p>{{ .Params.description }}</p>
+      <a href="{{ .Permalink }}" class="read-more">Read More</a>
+    </article>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

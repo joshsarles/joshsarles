@@ -1,0 +1,31 @@
+baseURL = "http://localhost:1313/"  # Update to your site’s URL when deploying
+languageCode = "en-us"
+title = "Josh Sarles - Portfolio"
+theme = "ananke"
+
+[languages]
+[languages.en]
+languageCode = "en"
+languageName = "English"
+weight = 0
+
+[params]
+description = "Portfolio of Josh Sarles, showcasing work in film, music, and commercials."
+favicon = "/images/favicon.ico"  # Optional: Add a favicon if you have one
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+[[menu.main]]
+name = "Film"
+url = "/film/"
+weight = 2
+[[menu.main]]
+name = "Music"
+url = "/music/"
+weight = 3
+[[menu.main]]
+name = "Commercial"
+url = "/commercial/"
+weight = 4

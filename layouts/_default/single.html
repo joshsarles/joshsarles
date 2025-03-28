@@ -1,0 +1,13 @@
+{{ define "main" }}
+<div class="container my-5">
+  <article class="post-entry">
+    <h1>{{ .Title }}</h1>
+    {{ if .Params.featured_image }}
+    <img src="{{ .Params.featured_image | relURL }}" alt="{{ .Title }}" style="max-width: 100%; height: auto; margin-bottom: 1rem;">
+    {{ end }}
+    <div class="content">
+      {{ .Content }}
+    </div>
+  </article>
+</div>
+{{ end }}
